@@ -1,5 +1,7 @@
 import time
 import threading
+import sys # <--- ADICIONADO
+import os  # <--- ADICIONADO
 from pynput.keyboard import Key, Controller, Listener
 from PIL import Image
 import pystray
@@ -17,10 +19,22 @@ shortcuts = {
 }
 # -----------------------------------------
 
+# --- FUNÇÃO MÁGICA PARA ENCONTRAR ARQUIVOS NO .EXE ---
+def resource_path(relative_path):
+    """ Retorna o caminho absoluto para o recurso, funciona para dev e para o PyInstaller """
+    try:
+        # PyInstaller cria uma pasta temporária e armazena o caminho em _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+# --------------------------------------------------------
+
 # --- LÓGICA DO MONITOR DE TECLADO (A MESMA DE ANTES) ---
 current_string = []
 keyboard = Controller()
-listener = None # Vamos controlar o listener globalmente
+listener = None
 
 def on_press(key):
     global current_string
@@ -44,47 +58,36 @@ def on_press(key):
             current_string = []
             break
 
-# Função que inicia o monitoramento do teclado
 def start_keyboard_listener():
     global listener
-    # A tecla ESC não fecha mais o programa, o menu do ícone fará isso
     listener = Listener(on_press=on_press)
     listener.start()
     print("Monitor de teclado iniciado.")
 
 # --- LÓGICA DO ÍCONE DA BANDEJA DO SISTEMA ---
-
-# Função para ser chamada quando o botão "Sair" do menu for clicado
 def exit_action(icon, item):
-    print("Saindo...")
     if listener and listener.is_alive():
-        listener.stop() # Para o monitor de teclado
-    icon.stop()       # Para o ícone da bandeja
+        listener.stop()
+    icon.stop()
 
-# Função principal que configura e roda tudo
 def main():
-    # Carrega a imagem do ícone
+    # Carrega a imagem do ícone USANDO A NOVA FUNÇÃO
+    image_path = resource_path("icone.png")
     try:
-        image = Image.open("icone.png")
+        image = Image.open(image_path)
     except FileNotFoundError:
-        print("Erro: Arquivo 'icone.png' não encontrado. Certifique-se de que ele está na mesma pasta do script.")
+        # Esta mensagem agora só aparecerá se o icone.png realmente não existir
+        print(f"Erro: Arquivo de ícone não encontrado em '{image_path}'")
         return
 
-    # Cria o menu que aparecerá ao clicar com o botão direito
     menu = (pystray.MenuItem('Sair', exit_action),)
-
-    # Cria o objeto do ícone
     icon = pystray.Icon("Atalhos", image, "Meu Software de Atalhos", menu)
 
-    # Inicia o monitor de teclado em uma thread separada
     keyboard_thread = threading.Thread(target=start_keyboard_listener)
-    keyboard_thread.daemon = True # Permite que o programa feche mesmo que a thread esteja rodando
+    keyboard_thread.daemon = True
     keyboard_thread.start()
     
-    print("Ícone da bandeja iniciado. Clique com o botão direito para sair.")
-    # Mostra o ícone. Esta linha vai "travar" o programa aqui, mantendo o ícone visível.
     icon.run()
 
-# Roda a função principal quando o script é executado
 if __name__ == '__main__':
     main()

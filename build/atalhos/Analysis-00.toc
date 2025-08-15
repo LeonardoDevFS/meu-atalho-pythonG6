@@ -16,7 +16,10 @@
  {},
  0,
  [],
- [],
+ [('icone.png',
+   'C:\\Users\\Leonardo - '
+   'PC\\Desktop\\meu-atalho-extension\\meu-atalho-pythonG6\\icone.png',
+   'DATA')],
  '3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit '
  '(AMD64)]',
  [('pyi_rth_inspect',
@@ -1800,6 +1803,10 @@
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_distutils_hack\\override.py',
    'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
+   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stringprep.py',
@@ -1807,10 +1814,6 @@
   ('_py_abc',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_py_abc.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\tracemalloc.py',
    'PYMODULE'),
   ('pystray',
    'C:\\Users\\Leonardo - '
@@ -2410,33 +2413,37 @@
    'BINARY')],
  [],
  [],
- [('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+ [('icone.png',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'PC\\Desktop\\meu-atalho-extension\\meu-atalho-pythonG6\\icone.png',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
-   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\Leonardo - '
@@ -2447,13 +2454,21 @@
    'C:\\Users\\Leonardo - '
    'PC\\Desktop\\meu-atalho-extension\\meu-atalho-pythonG6\\build\\atalhos\\base_library.zip',
    'DATA')],
- [('linecache',
+ [('collections',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\linecache.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\collections\\__init__.py',
    'PYMODULE'),
-  ('types',
+  ('locale',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\types.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\locale.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\warnings.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_weakrefset.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Leonardo - '
@@ -2943,17 +2958,17 @@
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('os',
+  ('types',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\os.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\types.py',
    'PYMODULE'),
   ('sre_compile',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_compile.py',
    'PYMODULE'),
-  ('enum',
+  ('traceback',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\enum.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\traceback.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\Leonardo - '
@@ -2975,37 +2990,57 @@
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__init__.py',
    'PYMODULE'),
-  ('weakref',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\weakref.py',
-   'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\reprlib.py',
-   'PYMODULE'),
   ('abc',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\abc.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\enum.py',
    'PYMODULE'),
   ('ntpath',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ntpath.py',
    'PYMODULE'),
-  ('warnings',
+  ('stat',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\warnings.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stat.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\io.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\weakref.py',
    'PYMODULE'),
   ('copyreg',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('operator',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\operator.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\Leonardo - '
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_collections_abc.py',
    'PYMODULE'),
   ('functools',
    'C:\\Users\\Leonardo - '
@@ -3015,51 +3050,23 @@
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\genericpath.py',
    'PYMODULE'),
-  ('_weakrefset',
+  ('codecs',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_weakrefset.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\codecs.py',
    'PYMODULE'),
-  ('traceback',
+  ('linecache',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\traceback.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\linecache.py',
    'PYMODULE'),
-  ('operator',
+  ('reprlib',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\operator.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\reprlib.py',
    'PYMODULE'),
   ('sre_constants',
    'C:\\Users\\Leonardo - '
    'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sre_constants.py',
    'PYMODULE'),
-  ('heapq',
+  ('os',
    'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\heapq.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\keyword.py',
-   'PYMODULE'),
-  ('locale',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\locale.py',
-   'PYMODULE'),
-  ('io',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\io.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\stat.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\Leonardo - '
-   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_collections_abc.py',
+   'PC\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\os.py',
    'PYMODULE')])

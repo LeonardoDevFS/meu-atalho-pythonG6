@@ -5,7 +5,7 @@ a = Analysis(
     ['atalhos.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('icone.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
